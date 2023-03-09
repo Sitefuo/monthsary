@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+display: block;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.buttons-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+max-width: 80%;
+margin: 0 auto;
+}
+
+a.button {
+text-align: center;
+display: inline-block;
+padding: 12px 24px;
+background-color: #4CAF50;
+color: white;
+font-size: 18px;
+border: none;
+border-radius: 4px;
+text-decoration: none;
+margin: 10px;
+flex-grow: 1;
+}
+
+a.button:hover {
+background-color: #3e8e41;
+}
+#header {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(204, 101, 118);
+}
+#message {
+  background-color: bisque;
+  text-align: center;
+  font-family: 'Arial', cursive;
+        font-size: 18px;
+  color: blue;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  padding: 2px;
+}
+#cmessage {
+  background-color: rgb(204, 101, 118);;
+  text-align: center;
+  font-family: 'Brush Script MT';
+        font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  padding: 2px;
+}
+.tbutton {
+  text-align: center;
+  display: block;
+  padding: 12px 24px;
+  background-color: #bd26a4;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 250px;
+}
+.fbutton {
+  text-align: center;
+  display: block;
+  padding: 12px 24px;
+  background-color: #111111;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 140px;
+}
+@media screen and (max-width: 500px) {
+ 
+      
+}
